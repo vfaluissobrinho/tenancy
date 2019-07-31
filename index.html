@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="build/tailwind.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <title>stancl/tenancy &mdash; A Laravel multi-database tenancy package that respects your code.</title>
+    <meta name="description"
+        content="A Laravel multi-database tenancy package that respects your code. You won't have to change a thing in your application's code.">
 </head>
 <body>
     <div class="w-full">
@@ -41,25 +43,32 @@
                                 <li><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> No replacing of Laravel classes (Cache, Storage, ...) with tenancy-aware classes</li>
                                 <li><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> Built-in tenant identification based on hostname (including second level domains)</li>
                             </ul>
-
                         </div>
                     </div>
 
-                        <button id="open-documentation"
-                            class="mx-auto block mt-8 bg-purple-700 hover:bg-purple-600 text-indigo-100 uppercase tracking-wider py-2 px-4 rounded-lg">
-                            <a href="https://github.com/stancl/tenancy">
-                            <svg class="w-5 inline align-middle fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <title>GitHub</title>
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                            /></svg>
-                            <span class="align-middle">View documentation</span>
-                            </a>
-                        </button>
+                    <div class="flex justify-center">
+                        <div>
+                        <a href="https://github.com/stancl/tenancy"
+                            class="focus:outline-none focus:border-indigo-500 border-2 border-transparent">
+                            <button id="view-documentation"
+                                class="mt-6 bg-purple-700 hover:bg-purple-600 text-indigo-100 uppercase tracking-wider
+                                py-2 px-4 rounded-lg focus:outline-none focus:border-indigo-500 border-2
+                                border-transparent">
+                                <svg class="w-5 inline align-middle fill-current" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <title>GitHub</title>
+                                    <path
+                                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                                /></svg>
+                                <span class="align-middle">View documentation</span>
+                            </button>
+                        </a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
 
-            <div id="social" class="bg-blue-100 w-full py-3">
+            <div id="social" class="bg-blue-100 w-full pt-4 pb-2">
                 <div class="flex justify-between w-full px-2 lg:w-30% mx-auto">
                     <a class="github-button" href="https://github.com/stancl/tenancy" data-show-count="true"
                         aria-label="Star stancl/tenancy on GitHub">Star</a>
@@ -75,19 +84,19 @@
                 </div>
             </div>
 
-            <div id="features" class="py-5 bg-gray-100">
+            <div id="features" class="py-10 bg-gray-100">
                 <div class="mx-auto px-2 lg:w-1/2 text-center">
                     <h2 class="text-2xl font-bold">Multi-tenancy is something that can be handled in the
                         background. Why should your app's code be polluted with tons of tenancy features
                         implementations?
                     </h2>
                     
-                    <p class="mt-4"><strong>stancl/tenancy</strong> is a Laravel package that implements multi-database
+                    <p class="mt-6"><strong>stancl/tenancy</strong> is a Laravel package that implements multi-database
                         tenancy into your application in a way that doesn't require you to change anything in your existing
                         codebase.
                     </p>
                 </div>
-                <div class="lg:w-3/4 mx-auto mt-4">
+                <div class="lg:w-3/4 mx-auto mt-10">
     
                     <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-6">
                         <div class="px-5">
@@ -102,7 +111,7 @@ $ touch routes/web.php</pre>
                         </div>
                     </div>
     
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-6">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-16">
                         <div class="px-5">
                             <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 cache()->remember('total_revenue', function () {
@@ -115,7 +124,7 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-6">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-16">
                         <div class="px-5">
                             <h3 class="text-2xl font-medium mb-1">Configurable</h3>
                             <p>Even though everything happens automatically, you're still in control. You can configure how database names, Redis keys and filesystem paths are prefixed, as well as how cache is tagged and what DB/Redis connections and FS disks are made multi-tenant.</p>
@@ -133,7 +142,7 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-6">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-16">
                         <div class="px-5">
                             <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 $ artisan tenants:seed --tenants=8075a580-1cb8-11e9-8822-49c5d8f8ff23
@@ -147,7 +156,7 @@ Database seeding completed successfully.</pre>
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-6">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-16">
                         <div class="px-5">
                             <h3 class="text-2xl font-medium mb-1">SOLID extensibility</h3>
                             <p>The package follows the SOLID principles and is open to extension. You're free to write
@@ -169,10 +178,10 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
 
             </div>
 
-            <div id="notifications" class="py-6 flex justify-center bg-purple-100">
+            <div id="notifications" class="py-8 flex justify-center bg-purple-100">
                 <div class="px-3">
                     <h2 id="stay-updated" class="text-2xl font-bold text-center">Stay updated</h2>
-                    <p class="mt-3">
+                    <p class="mt-4">
                         If you'd like to be notified about new versions and related stuff, you can sign up for e-mail notificatons or join our <a href="https://t.me/joinchat/AAAAAFjdrbSJg0ZCHTzxLA" target="_blank" class="link">Telegram
                         channel.</a>
                     </p>
@@ -181,15 +190,15 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
 
                         <form
                             action="https://github.us3.list-manage.com/subscribe/post?u=6a33c422777aedd88e9a9488e&amp;id=9b99f013b8"
-                            method="post" class="mt-4"
+                            method="post" class="mt-8"
                             target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
                                 <h2 class="text-lg font-medium">Subscribe to e-mail notifications</h2>
-                                <div class="mt-1">
+                                <div class="mt-3">
                                     <label for="mce-EMAIL">Email Address</label>
                                     <input type="email" value="" placeholder="your@email.com" name="EMAIL" class="rounded-lg shadow mx-2 px-2 focus:outline-none focus:border-blue-400 border-transparent border leading-relaxed py-1" id="mce-EMAIL">
                                 </div>
-                                <div class="mt-3">
+                                <div class="mt-4">
                                     <h3 class="font-medium">What would you like to be notified about?</h3>
                                     <ul class="mt-1">
                                         <li class="leading-relaxed"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="1" name="group[27425][1]"
