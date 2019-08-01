@@ -167,11 +167,13 @@ Database seeding completed successfully.</pre>
                         </div>
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed">
                             <pre class="mt-5 lg:mt-0 whitespace-pre-wrap bg-white w-full inline-block p-4 rounded-lg shadow-lg">
-use Stancl\Tenancy\Interfaces\TenantDatabaseManager;
-
 class PostgreSQLDatabaseManager implements TenantDatabaseManager
 {
-    public function createDatabase(string $name): bool</pre>
+  public function createDatabase($name)
+  {
+    //
+  }
+</pre>
                         </div>
                     </div>
                 </div>
