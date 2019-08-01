@@ -37,7 +37,6 @@ pre {
 
 hr {
     border: 1px solid #ccd;
-    @apply my-5;
 }
 
 /* .connections {

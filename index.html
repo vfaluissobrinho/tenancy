@@ -31,9 +31,9 @@
             <div id="hero" class="bg-blue-100 w-full circuit py-6">
                 <div class="w-4/5 lg:w-3/5 mx-auto">
 
-                    <div class="leading-loose text-center">
+                    <div class="leading-relaxed lg:leading-loose text-center">
                         <h1 class="text-3xl font-bold">A Laravel multi-database tenancy package that respects your code.</h1>
-                        <h2 class="text-2xl font-medium">You won't have to change a thing in your application's code.</h2>
+                        <h2 class="text-2xl font-medium mt-3 lg:mt-0">You won't have to change a thing in your application's code.</h2>
                     </div>
 
                     <div class="flex justify-center mt-6">
@@ -98,22 +98,22 @@
                 </div>
                 <div class="lg:w-3/4 mx-auto mt-10">
     
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-6">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
                         <div class="px-5">
                             <h3 class="text-2xl font-medium mb-1">Easy Installation</h3>
                             <p>Just run <code class="font-bold">composer install</code> and move your tenant routes.</p>
                         </div>
                         <div class="px-5">
-                            <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
+                            <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 $ composer install stancl/tenancy
 $ move routes/web.php routes/tenant.php
 $ touch routes/web.php</pre>
                         </div>
                     </div>
     
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-16">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-12 lg:mt-16">
                         <div class="px-5">
-                            <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
+                            <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 cache()->remember('total_revenue', function () {
    return Order::with('products')->get()->products->sum();
 });</pre>
@@ -124,13 +124,13 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-16">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
                         <div class="px-5">
                             <h3 class="text-2xl font-medium mb-1">Configurable</h3>
                             <p>Even though everything happens automatically, you're still in control. You can configure how database names, Redis keys and filesystem paths are prefixed, as well as how cache is tagged and what DB/Redis connections and FS disks are made multi-tenant.</p>
                         </div>
                         <div class="px-5">
-                            <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
+                            <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 'redis' => [
   'tenancy' => false,
   'prefix_base' => 'tenant',
@@ -142,9 +142,9 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-16">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-12 lg:mt-16">
                         <div class="px-5">
-                            <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
+                            <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 $ artisan tenants:seed --tenants=8075a580-1cb8-11e9-8822-49c5d8f8ff23
 Tenant: 8075a580-1cb8-11e9-8822-49c5d8f8ff23 (laravel.localhost)
 Database seeding completed successfully.</pre>
@@ -156,7 +156,7 @@ Database seeding completed successfully.</pre>
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-16">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
                         <div class="px-5">
                             <h3 class="text-2xl font-medium mb-1">SOLID extensibility</h3>
                             <p>The package follows the SOLID principles and is open to extension. You're free to write
@@ -166,7 +166,7 @@ Database seeding completed successfully.</pre>
                             </p>
                         </div>
                         <div class="px-5">
-                            <pre class="whitespace-pre-wrap lg:whitespace-pre bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
+                            <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 use Stancl\Tenancy\Interfaces\TenantDatabaseManager;
 
 class PostgreSQLDatabaseManager implements TenantDatabaseManager
@@ -179,7 +179,7 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
             </div>
 
             <div id="notifications" class="py-8 flex justify-center bg-purple-100">
-                <div class="px-3">
+                <div class="px-4">
                     <h2 id="stay-updated" class="text-2xl font-bold text-center">Stay updated</h2>
                     <p class="mt-4">
                         If you'd like to be notified about new versions and related stuff, you can sign up for e-mail notificatons or join our <a href="https://t.me/joinchat/AAAAAFjdrbSJg0ZCHTzxLA" target="_blank" class="link">Telegram
@@ -198,16 +198,16 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
                                     <label for="mce-EMAIL">Email Address</label>
                                     <input type="email" value="" placeholder="your@email.com" name="EMAIL" class="rounded-lg shadow mx-2 px-2 focus:outline-none focus:border-blue-400 border-transparent border leading-relaxed py-1" id="mce-EMAIL">
                                 </div>
-                                <div class="mt-4">
+                                <div class="mt-5">
                                     <h3 class="font-medium">What would you like to be notified about?</h3>
-                                    <ul class="mt-1">
-                                        <li class="leading-relaxed"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="1" name="group[27425][1]"
+                                    <ul class="mt-2">
+                                        <li class="leading-loose"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="1" name="group[27425][1]"
                                                 id="mce-group[27425]-27425-0"><label for="mce-group[27425]-27425-0">Major
                                                 versions of stancl/tenancy: important breaking changes</label></li>
-                                        <li class="leading-relaxed"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="2" name="group[27425][2]"
+                                        <li class="leading-loose"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="2" name="group[27425][2]"
                                                 id="mce-group[27425]-27425-1"><label for="mce-group[27425]-27425-1">Minor
                                                 versions of stancl/tenancy: new features, bug fixes</label></li>
-                                        <li class="leading-relaxed"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="4" name="group[27425][4]"
+                                        <li class="leading-loose"><input class="form-checkbox mx-2 focus:outline-none focus:shadow-none focus:border-blue-400 border-blue-200 border" type="checkbox" value="4" name="group[27425][4]"
                                                 id="mce-group[27425]-27425-2"><label for="mce-group[27425]-27425-2">Other:
                                                 once in a while, when I make something cool, I may send you an email</label>
                                         </li>
@@ -222,7 +222,7 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
                                         name="b_6a33c422777aedd88e9a9488e_9b99f013b8" tabindex="-1" value=""></div>
                                 <input type="hidden" name="subscribe" value="1">
                                 <button
-                                    class="mx-auto block mt-4 bg-indigo-600 text-white uppercase tracking-wider
+                                    class="mx-auto block mt-5 bg-indigo-600 text-white uppercase tracking-wider
                                     rounded-lg focus:outline-none focus:border-blue-400 border-transparent border
                                     hover:bg-indigo-500 px-2 py-1" style="box-shadow: 0px 0px 20px 4px rgba(198, 130,
                                     240, 0.45)"
@@ -239,12 +239,12 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
                 </div>
             </div>
 
-            <div id="footer" class="bg-gray-900 text-gray-100 py-6 flex justify-center">
+            <div id="footer" class="bg-gray-900 text-gray-100 py-8 flex justify-center">
                 <div class="px-3">
-                    <h1 class="text-2xl text-center mb-4"><a class="border-b-2 border-gray-600 hover:border-gray-100"
+                    <h1 class="text-2xl text-center"><a class="border-b-2 border-gray-600 hover:border-gray-100"
                             href="https://github.com/stancl/tenancy">stancl/tenancy</a></h1>
 
-                    <ul class="flex flex-wrap justify-center lg:flex-row">
+                    <ul class="flex flex-wrap justify-center lg:flex-row my-6">
                         <li class="mx-2"><a class="github-button" href="https://github.com/stancl" data-size="large" data-show-count="true"
                             aria-label="Follow @stancl on GitHub">Follow @stancl</a></li>
         
@@ -258,7 +258,7 @@ class PostgreSQLDatabaseManager implements TenantDatabaseManager
                             data-size="large" data-show-count="true" aria-label="Fork stancl/tenancy on GitHub">Fork</a></li>
                     </ul>
 
-                    <hr>
+                    <hr class="my-5">
 
                     <p class="text-center">Thanks to Steve Schoger for HeroPatterns and Zondicons! <img width="20" height="20"
                             class="inline" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"> CC BY 4.0
