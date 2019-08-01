@@ -39,14 +39,14 @@
                     <div class="flex justify-center mt-8">
                         <div>
                             <ul class="text-lg leading-loose">
-                                <li><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> No model traits to change database connection</li>
-                                <li><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> No replacing of Laravel classes (Cache, Storage, ...) with tenancy-aware classes</li>
-                                <li><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> Built-in tenant identification based on hostname (including second level domains)</li>
+                                <li class="mt-1"><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> No model traits to change database connection</li>
+                                <li class="mt-1"><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> No replacing of Laravel classes (Cache, Storage, ...) with tenancy-aware classes</li>
+                                <li class="mt-1"><img class="inline mr-1" width="20" height="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> Built-in tenant identification based on hostname (including second level domains)</li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="flex justify-center mt-12 mb-1">
+                    <div class="flex justify-center mt-10 mb-1">
                         <div>
                         <a href="https://github.com/stancl/tenancy"
                             class="focus:outline-none focus:border-indigo-500 border-2 border-transparent">
@@ -92,13 +92,13 @@
                             implementations?
                         </h2>
                         
-                        <p class="mt-8 text-lg"><strong>stancl/tenancy</strong> is a Laravel package that implements multi-database
+                        <p class="mt-10 text-lg"><strong>stancl/tenancy</strong> is a Laravel package that implements multi-database
                             tenancy into your application in a way that doesn't require you to change anything in your existing
                             codebase.
                         </p>
                     </div>
     
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between my-12 items-center lg:my-16 lg:-mx-10">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between items-center mt-16 mb-12 lg:mb-20 lg:-mx-10">
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed lg:text-right">
                             <h3 class="text-2xl font-medium mb-1">Easy Installation</h3>
                             <p>Just run <code class="font-bold">composer require</code> and move your tenant routes.</p>
@@ -111,7 +111,7 @@ $ touch routes/web.php</pre>
                         </div>
                     </div>
     
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between my-12 items-center lg:my-16 lg:-mx-10">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between items-center my-12 lg:my-20 lg:-mx-10">
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed">
                             <pre class="mt-5 lg:mt-0 whitespace-pre-wrap bg-white w-full inline-block p-4 rounded-lg shadow-lg">
 cache()->remember('total_revenue', function () {
@@ -124,7 +124,7 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between my-12 items-center lg:my-16 lg:-mx-10">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between items-center my-12 lg:my-20 lg:-mx-10">
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed lg:text-right">
                             <h3 class="text-2xl font-medium mb-1">Configurable</h3>
                             <p>Even though everything happens automatically, you're still in control. You can configure how database names, Redis keys and filesystem paths are prefixed, as well as how cache is tagged and what DB/Redis connections and FS disks are made multi-tenant.</p>
@@ -142,7 +142,7 @@ cache()->remember('total_revenue', function () {
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between my-12 items-center lg:my-16 lg:-mx-10">
+                    <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between items-center my-12 lg:my-20 lg:-mx-10">
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed">
                             <pre class="mt-5 lg:mt-0 whitespace-pre-wrap bg-white w-full inline-block p-4 rounded-lg shadow-lg">
 $ artisan tenants:seed --tenants=8075a580-1cb8-11e9-8822-49c5d8f8ff23
@@ -156,7 +156,7 @@ Database seeding completed successfully.</pre>
                         </div>
                     </div>
 
-                    <div class="w-full flex flex-col lg:flex-row lg:justify-between my-12 items-center lg:my-16 lg:-mx-10">
+                    <div class="w-full flex flex-col lg:flex-row lg:justify-between items-center my-12 lg:my-20 lg:-mx-10">
                         <div class="lg:w-1/2 lg:px-10 px-4 leading-relaxed lg:text-right">
                             <h3 class="text-2xl font-medium mb-1">SOLID Extensibility</h3>
                             <p>The package follows the SOLID principles and is open to extension. You're free to write
