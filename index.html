@@ -99,11 +99,11 @@
                 <div class="lg:w-3/5 mx-auto mt-10">
     
                     <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
-                        <div class="px-5">
+                        <div class="px-6">
                             <h3 class="text-2xl font-medium mb-1">Easy Installation</h3>
                             <p>Just run <code class="font-bold">composer require</code> and move your tenant routes.</p>
                         </div>
-                        <div class="px-5">
+                        <div class="px-6">
                             <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 $ composer require stancl/tenancy
 $ move routes/web.php routes/tenant.php
@@ -112,24 +112,24 @@ $ touch routes/web.php</pre>
                     </div>
     
                     <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-12 lg:mt-16">
-                        <div class="px-5">
+                        <div class="px-6">
                             <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 cache()->remember('total_revenue', function () {
    return Order::with('products')->get()->products->sum();
 });</pre>
                         </div>
-                        <div class="px-5">
+                        <div class="px-6">
                             <h3 class="text-2xl font-medium mb-1">Automatic data separation</h3>
                             <p>Tenants' databases, Redis stores, filesystems and caches are automatically separated. You can write your app like you're used to and let the package worry about data separation.</p>
                         </div>
                     </div>
 
                     <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
-                        <div class="px-5">
+                        <div class="px-6">
                             <h3 class="text-2xl font-medium mb-1">Configurable</h3>
                             <p>Even though everything happens automatically, you're still in control. You can configure how database names, Redis keys and filesystem paths are prefixed, as well as how cache is tagged and what DB/Redis connections and FS disks are made multi-tenant.</p>
                         </div>
-                        <div class="px-5">
+                        <div class="px-6">
                             <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 'redis' => [
   'tenancy' => false,
@@ -143,13 +143,13 @@ cache()->remember('total_revenue', function () {
                     </div>
 
                     <div class="w-full flex flex-col-reverse lg:flex-row lg:justify-between mt-12 lg:mt-16">
-                        <div class="px-5">
+                        <div class="px-6">
                             <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 $ artisan tenants:seed --tenants=8075a580-1cb8-11e9-8822-49c5d8f8ff23
 Tenant: 8075a580-1cb8-11e9-8822-49c5d8f8ff23 (laravel.localhost)
 Database seeding completed successfully.</pre>
                         </div>
-                        <div class="px-5">
+                        <div class="px-6">
                             <h3 class="text-2xl font-medium mb-1">CLI-friendly</h3>
                             <p><span class="font-medium">stancl/tenancy</span> comes with artisan commands for
                                 migrating, rolling back, as well as seeding tenant databases.</p>
@@ -157,7 +157,7 @@ Database seeding completed successfully.</pre>
                     </div>
 
                     <div class="w-full flex flex-col lg:flex-row lg:justify-between mt-12 lg:mt-16">
-                        <div class="px-5">
+                        <div class="px-6">
                             <h3 class="text-2xl font-medium mb-1">SOLID extensibility</h3>
                             <p>The package follows the SOLID principles and is open to extension. You're free to write
                                 (and contribute! <img width="20" height="20" class="inline"
@@ -165,7 +165,7 @@ Database seeding completed successfully.</pre>
                                 your own storage drivers and database managers.
                             </p>
                         </div>
-                        <div class="px-5">
+                        <div class="px-6">
                             <pre class="mt-5 lg:mt-0 overflow-auto bg-white max-w-full inline-block p-4 rounded-lg shadow-lg">
 use Stancl\Tenancy\Interfaces\TenantDatabaseManager;
 
