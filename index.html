@@ -96,6 +96,15 @@
                             tenancy into your application in a way that doesn't require you to change anything in your existing
                             codebase.
                         </p>
+
+                        <h4 class="mt-10 text-xl font-bold">How does it work?</h4>
+                        <div class="mt-2 flex justify-center">
+                            <ol class="ml-10 text-lg leading-relaxed list-decimal text-left">
+                                <li class="mt-2">The tenant is identified using the current hostname.</li>
+                                <li class="mt-2">Database & Redis connections are switched, cache is tagged and filesystem root paths are suffixed.</li>
+                                <li class="mt-2">Your code is automatically multi-tenant. No changes needed.</li>
+                            </ol>
+                        </div>
                     </div>
     
                     <div class="w-full flex flex-col lg:flex-row lg:justify-between items-center mt-16 mb-12 lg:mb-20 lg:-mx-10">
@@ -120,7 +129,7 @@ cache()->remember('total_revenue', function () {
                         </div>
                         <div class="lg:w-1/2 lg:px-10 leading-relaxed">
                             <h3 class="text-2xl font-medium mb-1">Automatic Data Separation</h3>
-                            <p>Tenants' databases, Redis stores, filesystems and caches are automatically separated. You can write your app like you're used to and let the package worry about data separation.</p>
+                            <p>Tenants' databases, Redis stores, filesystems and caches are automatically separated. You can write your app like you're used to and let the package worry about tenant data separation.</p>
                         </div>
                     </div>
 
