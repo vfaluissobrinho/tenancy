@@ -1,0 +1,63 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+));
+$coverage->setTests(array (
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/src/CacheManager.php' => true,
+  '/var/www/html/src/Commands/Install.php' => true,
+  '/var/www/html/src/Commands/Migrate.php' => true,
+  '/var/www/html/src/Commands/Rollback.php' => true,
+  '/var/www/html/src/Commands/Run.php' => true,
+  '/var/www/html/src/Commands/Seed.php' => true,
+  '/var/www/html/src/Commands/TenantList.php' => true,
+  '/var/www/html/src/Contracts/Feature.php' => true,
+  '/var/www/html/src/Contracts/StorageDriver.php' => true,
+  '/var/www/html/src/Contracts/TenancyBootstrapper.php' => true,
+  '/var/www/html/src/Contracts/TenantCannotBeCreatedException.php' => true,
+  '/var/www/html/src/Contracts/TenantDatabaseManager.php' => true,
+  '/var/www/html/src/Contracts/UniqueIdentifierGenerator.php' => true,
+  '/var/www/html/src/Controllers/TenantAssetsController.php' => true,
+  '/var/www/html/src/DatabaseManager.php' => true,
+  '/var/www/html/src/Exceptions/DatabaseManagerNotRegisteredException.php' => true,
+  '/var/www/html/src/Exceptions/DomainsOccupiedByOtherTenantException.php' => true,
+  '/var/www/html/src/Exceptions/TenantCouldNotBeIdentifiedException.php' => true,
+  '/var/www/html/src/Exceptions/TenantDatabaseAlreadyExistsException.php' => true,
+  '/var/www/html/src/Exceptions/TenantStorageException.php' => true,
+  '/var/www/html/src/Exceptions/TenantWithThisIdAlreadyExistsException.php' => true,
+  '/var/www/html/src/Facades/GlobalCacheFacade.php' => true,
+  '/var/www/html/src/Facades/TenancyFacade.php' => true,
+  '/var/www/html/src/Facades/TenantFacade.php' => true,
+  '/var/www/html/src/Features/TelescopeTags.php' => true,
+  '/var/www/html/src/Features/TenantRedirect.php' => true,
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseCreator.php' => true,
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseDeleter.php' => true,
+  '/var/www/html/src/Middleware/InitializeTenancy.php' => true,
+  '/var/www/html/src/Middleware/PreventAccessFromTenantDomains.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/DatabaseStorageDriver.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/DomainModel.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/TenantModel.php' => true,
+  '/var/www/html/src/StorageDrivers/RedisStorageDriver.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/CacheTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/DatabaseTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/FilesystemTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/QueueTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/RedisTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyServiceProvider.php' => true,
+  '/var/www/html/src/Tenant.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/MySQLDatabaseManager.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/PostgreSQLDatabaseManager.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/SQLiteDatabaseManager.php' => true,
+  '/var/www/html/src/TenantManager.php' => true,
+  '/var/www/html/src/TenantRouteServiceProvider.php' => true,
+  '/var/www/html/src/Traits/DealsWithMigrations.php' => true,
+  '/var/www/html/src/Traits/HasATenantsOption.php' => true,
+  '/var/www/html/src/Traits/HasArrayAccess.php' => true,
+  '/var/www/html/src/UUIDGenerator.php' => true,
+  '/var/www/html/src/helpers.php' => true,
+));
+
+return $coverage;

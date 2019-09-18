@@ -1,0 +1,2187 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/src/Exceptions/TenantStorageException.php' => 
+  array (
+  ),
+  '/var/www/html/src/Middleware/InitializeTenancy.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => NULL,
+  ),
+  '/var/www/html/src/Traits/HasArrayAccess.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => NULL,
+    16 => 
+    array (
+    ),
+    17 => NULL,
+    21 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenantRouteServiceProvider.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    18 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Contracts/TenantCannotBeCreatedException.php' => 
+  array (
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenantDatabaseManagers/MySQLDatabaseManager.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => NULL,
+    19 => 
+    array (
+    ),
+    20 => NULL,
+    24 => 
+    array (
+    ),
+    25 => NULL,
+  ),
+  '/var/www/html/src/Traits/DealsWithMigrations.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => NULL,
+  ),
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseDeleter.php' => 
+  array (
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Tenant.php' => 
+  array (
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    73 => NULL,
+    77 => 
+    array (
+    ),
+    78 => NULL,
+    82 => 
+    array (
+    ),
+    83 => NULL,
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    94 => NULL,
+    104 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    108 => NULL,
+    118 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    122 => NULL,
+    126 => 
+    array (
+    ),
+    128 => 
+    array (
+    ),
+    129 => NULL,
+    133 => 
+    array (
+    ),
+    135 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => NULL,
+    142 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    145 => NULL,
+    149 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+    155 => 
+    array (
+    ),
+    158 => 
+    array (
+    ),
+    159 => 
+    array (
+    ),
+    161 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    166 => 
+    array (
+    ),
+    167 => NULL,
+    176 => 
+    array (
+    ),
+    177 => 
+    array (
+    ),
+    178 => 
+    array (
+    ),
+    181 => 
+    array (
+    ),
+    182 => NULL,
+    191 => 
+    array (
+    ),
+    192 => 
+    array (
+    ),
+    193 => 
+    array (
+    ),
+    195 => 
+    array (
+    ),
+    196 => NULL,
+    200 => 
+    array (
+    ),
+    201 => NULL,
+    205 => 
+    array (
+    ),
+    206 => NULL,
+    216 => 
+    array (
+    ),
+    217 => 
+    array (
+    ),
+    218 => 
+    array (
+    ),
+    221 => 
+    array (
+    ),
+    223 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    227 => 
+    array (
+    ),
+    231 => 
+    array (
+    ),
+    233 => 
+    array (
+    ),
+    234 => 
+    array (
+    ),
+    237 => 
+    array (
+    ),
+    238 => NULL,
+    242 => 
+    array (
+    ),
+    243 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    247 => 
+    array (
+    ),
+    248 => 
+    array (
+    ),
+    249 => 
+    array (
+    ),
+    252 => 
+    array (
+    ),
+    253 => 
+    array (
+    ),
+    256 => 
+    array (
+    ),
+    257 => NULL,
+    262 => 
+    array (
+    ),
+    263 => NULL,
+    267 => 
+    array (
+    ),
+    268 => NULL,
+    272 => 
+    array (
+    ),
+    273 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Traits/HasATenantsOption.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => NULL,
+  ),
+  '/var/www/html/src/Contracts/StorageDriver.php' => 
+  array (
+  ),
+  '/var/www/html/src/Middleware/PreventAccessFromTenantDomains.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => NULL,
+  ),
+  '/var/www/html/src/Commands/Rollback.php' => 
+  array (
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Contracts/UniqueIdentifierGenerator.php' => 
+  array (
+  ),
+  '/var/www/html/src/TenancyBootstrappers/QueueTenancyBootstrapper.php' => 
+  array (
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    56 => NULL,
+  ),
+  '/var/www/html/src/Commands/Seed.php' => 
+  array (
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Exceptions/TenantCouldNotBeIdentifiedException.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenantDatabaseManagers/SQLiteDatabaseManager.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    18 => NULL,
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    27 => NULL,
+    31 => 
+    array (
+    ),
+    32 => NULL,
+  ),
+  '/var/www/html/src/Contracts/TenancyBootstrapper.php' => 
+  array (
+  ),
+  '/var/www/html/src/TenancyBootstrappers/CacheTenancyBootstrapper.php' => 
+  array (
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseCreator.php' => 
+  array (
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/StorageDrivers/Database/DatabaseStorageDriver.php' => 
+  array (
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => NULL,
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => NULL,
+    51 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => NULL,
+    69 => 
+    array (
+    ),
+    70 => NULL,
+    75 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    94 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    108 => NULL,
+    117 => 
+    array (
+    ),
+    118 => NULL,
+    122 => 
+    array (
+    ),
+    124 => 
+    array (
+    ),
+    125 => NULL,
+    129 => 
+    array (
+    ),
+    131 => 
+    array (
+    ),
+    132 => NULL,
+    136 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    142 => 
+    array (
+    ),
+    143 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Commands/Run.php' => 
+  array (
+    35 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/helpers.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => NULL,
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => NULL,
+    33 => 
+    array (
+    ),
+    34 => NULL,
+  ),
+  '/var/www/html/src/StorageDrivers/RedisStorageDriver.php' => 
+  array (
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => NULL,
+    45 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => NULL,
+    53 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => NULL,
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => NULL,
+    86 => 
+    array (
+    ),
+    87 => NULL,
+    92 => 
+    array (
+    ),
+    94 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    98 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    117 => 
+    array (
+    ),
+    118 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    129 => 
+    array (
+    ),
+    130 => 
+    array (
+    ),
+    132 => 
+    array (
+    ),
+    135 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    142 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => 
+    array (
+    ),
+    148 => NULL,
+    152 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+    155 => NULL,
+    159 => 
+    array (
+    ),
+    161 => 
+    array (
+    ),
+    162 => 
+    array (
+    ),
+    163 => 
+    array (
+    ),
+    164 => 
+    array (
+    ),
+    167 => 
+    array (
+    ),
+    168 => NULL,
+    172 => 
+    array (
+    ),
+    173 => 
+    array (
+    ),
+    174 => 
+    array (
+    ),
+    178 => 
+    array (
+    ),
+    180 => 
+    array (
+    ),
+    181 => 
+    array (
+    ),
+    184 => 
+    array (
+    ),
+    185 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenancyBootstrappers/RedisTenancyBootstrapper.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    32 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => NULL,
+  ),
+  '/var/www/html/src/Exceptions/DatabaseManagerNotRegisteredException.php' => 
+  array (
+    11 => 
+    array (
+    ),
+    12 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Exceptions/TenantWithThisIdAlreadyExistsException.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => NULL,
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenantManager.php' => 
+  array (
+    45 => 
+    array (
+    ),
+    46 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => NULL,
+    71 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    78 => NULL,
+    89 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    98 => NULL,
+    102 => 
+    array (
+    ),
+    103 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    106 => NULL,
+    110 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    113 => NULL,
+    124 => 
+    array (
+    ),
+    125 => NULL,
+    136 => 
+    array (
+    ),
+    137 => NULL,
+    148 => 
+    array (
+    ),
+    149 => 
+    array (
+    ),
+    151 => 
+    array (
+    ),
+    152 => NULL,
+    156 => 
+    array (
+    ),
+    157 => 
+    array (
+    ),
+    158 => 
+    array (
+    ),
+    160 => 
+    array (
+    ),
+    161 => NULL,
+    166 => 
+    array (
+    ),
+    167 => NULL,
+    171 => 
+    array (
+    ),
+    173 => 
+    array (
+    ),
+    174 => 
+    array (
+    ),
+    177 => 
+    array (
+    ),
+    179 => 
+    array (
+    ),
+    180 => NULL,
+    184 => 
+    array (
+    ),
+    186 => 
+    array (
+    ),
+    187 => 
+    array (
+    ),
+    190 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    193 => 
+    array (
+    ),
+    195 => 
+    array (
+    ),
+    196 => NULL,
+    201 => 
+    array (
+    ),
+    202 => NULL,
+    212 => 
+    array (
+    ),
+    213 => 
+    array (
+    ),
+    216 => 
+    array (
+    ),
+    217 => 
+    array (
+    ),
+    220 => 
+    array (
+    ),
+    221 => NULL,
+    225 => 
+    array (
+    ),
+    227 => 
+    array (
+    ),
+    228 => NULL,
+    237 => 
+    array (
+    ),
+    238 => NULL,
+    248 => 
+    array (
+    ),
+    249 => NULL,
+    253 => 
+    array (
+    ),
+    254 => NULL,
+    258 => 
+    array (
+    ),
+    259 => NULL,
+    270 => 
+    array (
+    ),
+    271 => 
+    array (
+    ),
+    273 => 
+    array (
+    ),
+    274 => NULL,
+    285 => 
+    array (
+    ),
+    287 => 
+    array (
+    ),
+    288 => 
+    array (
+    ),
+    289 => NULL,
+  ),
+  '/var/www/html/src/DatabaseManager.php' => 
+  array (
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => NULL,
+    86 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    101 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    108 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    116 => 
+    array (
+    ),
+    120 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    123 => 
+    array (
+    ),
+    124 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    128 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => 
+    array (
+    ),
+    136 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    139 => 
+    array (
+    ),
+    142 => 
+    array (
+    ),
+    143 => NULL,
+  ),
+  '/var/www/html/src/Exceptions/DomainsOccupiedByOtherTenantException.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    14 => NULL,
+  ),
+  '/var/www/html/src/Facades/TenancyFacade.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => NULL,
+  ),
+  '/var/www/html/src/Features/TenantRedirect.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenancyServiceProvider.php' => 
+  array (
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    30 => 
+    array (
+    ),
+    31 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    57 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/TenancyBootstrappers/DatabaseTenancyBootstrapper.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    29 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Facades/TenantFacade.php' => 
+  array (
+    15 => 
+    array (
+    ),
+    16 => NULL,
+  ),
+  '/var/www/html/src/Controllers/TenantAssetsController.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    14 => 
+    array (
+    ),
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Exceptions/TenantDatabaseAlreadyExistsException.php' => 
+  array (
+    16 => 
+    array (
+    ),
+    17 => NULL,
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Facades/GlobalCacheFacade.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    14 => NULL,
+  ),
+  '/var/www/html/src/Features/TelescopeTags.php' => 
+  array (
+    19 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => NULL,
+    44 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Commands/Install.php' => 
+  array (
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    41 => 
+    array (
+    ),
+    44 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    51 => 
+    array (
+    ),
+    53 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    91 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Commands/Migrate.php' => 
+  array (
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    37 => 
+    array (
+    ),
+    38 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    48 => 
+    array (
+    ),
+    49 => 
+    array (
+    ),
+    52 => 
+    array (
+    ),
+    54 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Contracts/Feature.php' => 
+  array (
+  ),
+  '/var/www/html/src/StorageDrivers/Database/TenantModel.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => NULL,
+    27 => 
+    array (
+    ),
+    28 => NULL,
+    32 => 
+    array (
+    ),
+    33 => NULL,
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => NULL,
+    44 => 
+    array (
+    ),
+    45 => NULL,
+    55 => 
+    array (
+    ),
+    56 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => NULL,
+    72 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => NULL,
+    79 => 
+    array (
+    ),
+    80 => NULL,
+    85 => 
+    array (
+    ),
+    87 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    89 => NULL,
+    93 => 
+    array (
+    ),
+    94 => 
+    array (
+    ),
+    96 => 
+    array (
+    ),
+    97 => 
+    array (
+    ),
+    99 => 
+    array (
+    ),
+    102 => 
+    array (
+    ),
+    103 => NULL,
+    107 => 
+    array (
+    ),
+    108 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    116 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    120 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Commands/TenantList.php' => 
+  array (
+    32 => 
+    array (
+    ),
+    34 => 
+    array (
+    ),
+    35 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/Contracts/TenantDatabaseManager.php' => 
+  array (
+  ),
+  '/var/www/html/src/CacheManager.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    15 => 
+    array (
+    ),
+    16 => 
+    array (
+    ),
+    17 => 
+    array (
+    ),
+    20 => 
+    array (
+    ),
+    21 => 
+    array (
+    ),
+    23 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    27 => NULL,
+  ),
+  '/var/www/html/src/TenancyBootstrappers/FilesystemTenancyBootstrapper.php' => 
+  array (
+    23 => 
+    array (
+    ),
+    24 => 
+    array (
+    ),
+    25 => 
+    array (
+    ),
+    26 => 
+    array (
+    ),
+    28 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+    36 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => 
+    array (
+    ),
+    42 => 
+    array (
+    ),
+    43 => 
+    array (
+    ),
+    45 => 
+    array (
+    ),
+    47 => 
+    array (
+    ),
+    50 => 
+    array (
+    ),
+    55 => 
+    array (
+    ),
+    58 => 
+    array (
+    ),
+    59 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+  ),
+  '/var/www/html/src/StorageDrivers/Database/DomainModel.php' => 
+  array (
+    22 => 
+    array (
+    ),
+    23 => NULL,
+  ),
+  '/var/www/html/src/TenantDatabaseManagers/PostgreSQLDatabaseManager.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    15 => NULL,
+    19 => 
+    array (
+    ),
+    20 => NULL,
+    24 => 
+    array (
+    ),
+    25 => NULL,
+  ),
+  '/var/www/html/src/UUIDGenerator.php' => 
+  array (
+    13 => 
+    array (
+    ),
+    14 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/src/CacheManager.php' => true,
+  '/var/www/html/src/Commands/Install.php' => true,
+  '/var/www/html/src/Commands/Migrate.php' => true,
+  '/var/www/html/src/Commands/Rollback.php' => true,
+  '/var/www/html/src/Commands/Run.php' => true,
+  '/var/www/html/src/Commands/Seed.php' => true,
+  '/var/www/html/src/Commands/TenantList.php' => true,
+  '/var/www/html/src/Contracts/Feature.php' => true,
+  '/var/www/html/src/Contracts/StorageDriver.php' => true,
+  '/var/www/html/src/Contracts/TenancyBootstrapper.php' => true,
+  '/var/www/html/src/Contracts/TenantCannotBeCreatedException.php' => true,
+  '/var/www/html/src/Contracts/TenantDatabaseManager.php' => true,
+  '/var/www/html/src/Contracts/UniqueIdentifierGenerator.php' => true,
+  '/var/www/html/src/Controllers/TenantAssetsController.php' => true,
+  '/var/www/html/src/DatabaseManager.php' => true,
+  '/var/www/html/src/Exceptions/DatabaseManagerNotRegisteredException.php' => true,
+  '/var/www/html/src/Exceptions/DomainsOccupiedByOtherTenantException.php' => true,
+  '/var/www/html/src/Exceptions/TenantCouldNotBeIdentifiedException.php' => true,
+  '/var/www/html/src/Exceptions/TenantDatabaseAlreadyExistsException.php' => true,
+  '/var/www/html/src/Exceptions/TenantStorageException.php' => true,
+  '/var/www/html/src/Exceptions/TenantWithThisIdAlreadyExistsException.php' => true,
+  '/var/www/html/src/Facades/GlobalCacheFacade.php' => true,
+  '/var/www/html/src/Facades/TenancyFacade.php' => true,
+  '/var/www/html/src/Facades/TenantFacade.php' => true,
+  '/var/www/html/src/Features/TelescopeTags.php' => true,
+  '/var/www/html/src/Features/TenantRedirect.php' => true,
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseCreator.php' => true,
+  '/var/www/html/src/Jobs/QueuedTenantDatabaseDeleter.php' => true,
+  '/var/www/html/src/Middleware/InitializeTenancy.php' => true,
+  '/var/www/html/src/Middleware/PreventAccessFromTenantDomains.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/DatabaseStorageDriver.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/DomainModel.php' => true,
+  '/var/www/html/src/StorageDrivers/Database/TenantModel.php' => true,
+  '/var/www/html/src/StorageDrivers/RedisStorageDriver.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/CacheTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/DatabaseTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/FilesystemTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/QueueTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyBootstrappers/RedisTenancyBootstrapper.php' => true,
+  '/var/www/html/src/TenancyServiceProvider.php' => true,
+  '/var/www/html/src/Tenant.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/MySQLDatabaseManager.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/PostgreSQLDatabaseManager.php' => true,
+  '/var/www/html/src/TenantDatabaseManagers/SQLiteDatabaseManager.php' => true,
+  '/var/www/html/src/TenantManager.php' => true,
+  '/var/www/html/src/TenantRouteServiceProvider.php' => true,
+  '/var/www/html/src/Traits/DealsWithMigrations.php' => true,
+  '/var/www/html/src/Traits/HasATenantsOption.php' => true,
+  '/var/www/html/src/Traits/HasArrayAccess.php' => true,
+  '/var/www/html/src/UUIDGenerator.php' => true,
+  '/var/www/html/src/helpers.php' => true,
+));
+
+return $coverage;
